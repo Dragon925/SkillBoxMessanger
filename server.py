@@ -31,6 +31,7 @@ def status_method():
         'status': True,
         'time': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
         'users': len(users),
+        'users_online': len(users_online),
         'messages': len(messages)
     }
 
